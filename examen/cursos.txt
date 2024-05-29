@@ -1,0 +1,12 @@
+-------Cursos disponibles Para usted---------------
+
+--------------------------------------------------------
+| No  |Codigo del curso |       Cursos Disponibles      | 
+------------------------------------------------------- |
+| 1   |      091        |     Fisica                    | 
+| 2   |      092        |     Calculo I                 |
+| 3   |      093        |     Programacion I            |
+| 4   |      094        |     Derecho I                 |
+| 5   |      095        |     Procesos Administrativos  |
+| 6   |      096        |     Emprendedores de Negocios | 
+---------------------------------------------------------

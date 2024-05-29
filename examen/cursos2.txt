@@ -1,0 +1,6 @@
+091|Fisica|                    
+092|Calculo I|                 
+093|Programacion I|            
+094|Derecho I|                 
+095|Procesos Administrativos|  
+096|Emprendedores de Negocios|  
