@@ -1,9 +1,7 @@
-
+//Creado por Jose Gallardo 9959-23-106
 #include <iostream>
 #include <cstdlib>
 #include <conio.h>
-
-
 #include "usuarios.h"
 #include "Login.h"
 #include "Bitacora.h"
@@ -111,8 +109,7 @@ void catalogos()
         cout << "\t\t\t--------------------------------------------" << endl;
         cout << "\t\t\t|   SISTEMA DE GESTION UMG - CATALOGOS      |" << endl;
         cout << "\t\t\t--------------------------------------------" << endl;
-        cout << "\t\t\t 1. Alumnos" << endl;
-
+        cout << "\t\t\t 1. Persona" << endl;
         cout << "\t\t\t 2. Retornar menu anterior" << endl;
         cout << "\t\t\t --------------------------------------------" << endl;
         cout << "\t\t\t | Opcion a escoger:[1-2]|" << endl;
@@ -129,8 +126,9 @@ void catalogos()
         }
             break;
         case 2:
+        {
             menuGeneral();
-
+        }
             break;
         case 3:
         {
@@ -162,7 +160,7 @@ void catalogos()
             // Implementación para Horarios
             break;
         case 12:
-
+            menuGeneral();
             break;
         default:
             cout << "\n\t\t\t Opcion invalida...Por favor prueba otra vez..";
@@ -178,13 +176,13 @@ void procesos()
     do {
         system("cls");
         cout << "\t\t\t--------------------------------------------" << endl;
-        cout << "\t\t\t|      SISTEMA GESTION UMG        |" << endl;
+        cout << "\t\t\t|      SISTEMA GESTION UMG - Procesos       |" << endl;
         cout << "\t\t\t--------------------------------------------" << endl;
-        cout << "\t\t\t 1. Asignacion de Cursos a Alumnos" << endl;
+        cout << "\t\t\t 1. Asignacion" << endl;
 
-        cout << "\t\t\t 3. Retornar menu anterior" << endl;
+        cout << "\t\t\t 2. Retornar menu anterior" << endl;
         cout << "\t\t\t--------------------------------------------" << endl;
-        cout << "\t\t\tOpcion a escoger:[1/2/3]" << endl;
+        cout << "\t\t\tOpcion a escoger:[1/2]" << endl;
         cout << "\t\t\t--------------------------------------------" << endl;
         cout << "\t\t\tIngresa tu Opcion: ";
         cin >> choice;
@@ -200,7 +198,7 @@ void procesos()
         }
             break;
         case 2:
-            // Implementación para la asignación de cursos a maestros
+
             break;
         case 3:
             break;

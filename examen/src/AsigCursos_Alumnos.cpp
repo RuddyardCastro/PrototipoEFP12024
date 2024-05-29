@@ -154,10 +154,10 @@ void AsigCursos_Alumnos::Menu_alumno() {
         do {
             system("cls");
             cout << "\t\t\t+------------------------------------------+" << endl;
-            cout << "\t\t\t|   BIENVENIDO A NUESTRO MENU DE ALUMNOS   |" << endl;
+            cout << "\t\t\t|   BIENVENIDO |" << endl;
             cout << "\t\t\t+------------------------------------------+" << endl;
-            cout << "\t\t\t|1. Asignarse a Cursos                     |" << endl;
-            cout << "\t\t\t|2. Imprimir boleta de asignacion          |" << endl;
+            cout << "\t\t\t|1. Asignarse                     |" << endl;
+            cout << "\t\t\t|2. Imprimir          |" << endl;
             cout << "\t\t\t|3. regresar al menu anterior              |" << endl;
             cout << "\t\t\t+------------------------------------------+" << endl;
             cout << "\t\t\t|Opcion a escoger:[1/2/3]              |" << endl;
